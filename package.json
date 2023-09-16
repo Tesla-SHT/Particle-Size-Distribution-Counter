@@ -1,0 +1,41 @@
+
+{
+  "name": "particle-size-distribution-counter-v1",
+  "version": "1.0.0",
+  "description": "particle-size-distribution-counter",
+  "main": "main.js",  
+  "build": {
+  "productName": "IGEM_Counter",
+  "mac": {
+    "target": [
+      "dmg",
+      "zip"
+    ]
+  },
+  "win": {
+    "target": [
+      "nsis",
+      "zip"
+    ]
+  }
+},
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "devDependencies": {
+    "@electron/remote": "^2.0.11",
+    "electron": "^26.1.0"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.0",
+    "echarts": "^5.4.3"
+  },
+  "author": "Tesla_SHT",
+  "license": "ISC"
+}
+

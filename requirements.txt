@@ -1,0 +1,14 @@
+Install npm
+
+Open cmd in the root dir:
+npm install electron
+npm install echart
+npm run start
+
+Packages for Python:
+import cv2
+import numpy as np
+import os
+import math
+import matplotlib.pyplot as plt
+import sys
