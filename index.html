@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Image Processing App</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <h1>Particle Size Distribution Counter</h1>
+    <input type="file" id="imageInput">
+    <br>
+    <p>Please estimate the following values under the scale's unit, but do not include the unit</p>
+    <label for="minRadius">Minimum Radius:</label>
+    <input type="number" id="minRadius">
+    <br>
+    <label for="maxRadius">Maximum Radius:</label>
+    <input type="number" id="maxRadius">
+    <br>
+    <label for="scale">Scale</label>
+    <input type="number" id="scale">
+    <br>
+    <label for="Count">The width of distribution bars</label>
+    <input type="number" id="Count">
+    <br>
+    <button id="processButton">Process Image</button>
+
+    <div id="result"></div>
+    <div id="barChart" style="width: 800px; height: 400px;"></div>
+
+
+    <script src="Echarts.js"></script>
+    <script src="render.js"></script>
+</body>
+
+</html>
